@@ -119,10 +119,16 @@ export function makeCourse(scene) {
           }
 ```
 
+## 参考にした資料
+
+* 応用プログラミング第7回 3Dモデルの資料のコースの作成とコース上をモデルが動く部分： 制御点を繋いでコースを作る方法はこの回のプログラムを参考にして作っている．
+
+* three.js の公式サイトの Documentation: https://threejs.org/docs/index.html 3次元モデルをファイルから読み込み，シーンに追加するところは，[Loading 3D Models](https://threejs.org/docs/index.html#manual/en/introduction/Loading-3D-models) と [GLTFLoader](https://threejs.org/docs/index.html#examples/en/loaders/GLTFLoader) の記述を利用している．
+
 ## 感想
 
-GitHub Classroom のグループ課題を扱うのは初めてだったので，別々の人が独立にリポジトリを更新したときに競合せずに1つの状態にまとまるのか不安だったが，修正するファイルを分けたことで，ほとんど問題が起こらず安心した．
+* GitHub Classroom のグループ課題を扱うのは初めてだったので，別々の人が独立にリポジトリを更新したときに競合せずに1つの状態にまとまるのか不安だったが，修正するファイルを分けたことで，ほとんど問題が起こらず安心した．
 
-別々のモジュールに分けて importする方法を思い付くのに時間がかかって，いろいろな方法で試行錯誤したが，勉強になった．
+* 別々のモジュールに分けて importする方法を思い付くのに時間がかかって，いろいろな方法で試行錯誤したが，勉強になった．
 
-結果としては，やりたかったことが実現できたので満足している．
+* 結果としては，やりたかったことが実現できたので満足している．
